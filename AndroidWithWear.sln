@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "AndroidWithWear", "AndroidWithWear\AndroidWithWear.shproj", "{84A53280-E47A-4DBF-8F03-D12D86C37DAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mobile", "Mobile\Mobile.csproj", "{AE431EEA-F862-47E7-A448-D8FEBEFE104B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wear", "Wear\Wear.csproj", "{4EB25631-6D39-4C15-925D-AC7ABFE11C04}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		AndroidWithWear\AndroidWithWear.projitems*{4eb25631-6d39-4c15-925d-ac7abfe11c04}*SharedItemsImports = 4
+		AndroidWithWear\AndroidWithWear.projitems*{84a53280-e47a-4dbf-8f03-d12d86c37daf}*SharedItemsImports = 13
+		AndroidWithWear\AndroidWithWear.projitems*{ae431eea-f862-47e7-a448-d8febefe104b}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE431EEA-F862-47E7-A448-D8FEBEFE104B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE431EEA-F862-47E7-A448-D8FEBEFE104B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE431EEA-F862-47E7-A448-D8FEBEFE104B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{AE431EEA-F862-47E7-A448-D8FEBEFE104B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE431EEA-F862-47E7-A448-D8FEBEFE104B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE431EEA-F862-47E7-A448-D8FEBEFE104B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{4EB25631-6D39-4C15-925D-AC7ABFE11C04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EB25631-6D39-4C15-925D-AC7ABFE11C04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EB25631-6D39-4C15-925D-AC7ABFE11C04}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4EB25631-6D39-4C15-925D-AC7ABFE11C04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EB25631-6D39-4C15-925D-AC7ABFE11C04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EB25631-6D39-4C15-925D-AC7ABFE11C04}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A73C1F20-AD6A-49B1-AF26-B80C7C974640}
+	EndGlobalSection
+EndGlobal
