@@ -1,0 +1,24 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>AndroidWithWear</Name>
+    <Description>Shared project for Android With Wear</Description>
+    <ProjectType>Code Sharing Projects</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>AndroidWithWear</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <CreateInPlace>true</CreateInPlace>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="$safeprojectname$.shproj" File="AndroidWithWear.shproj" ReplaceParameters="true">
+      <ProjectItem TargetFileName="$safeprojectname$.projitems" ReplaceParameters="true">AndroidWithWear.projitems</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="GettingStarted.html">GettingStarted.html</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="TrialCounter.cs">TrialCounter.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

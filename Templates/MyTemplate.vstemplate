@@ -1,0 +1,27 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="ProjectGroup">
+  <TemplateData>
+    <Name>Android With Wear App 2.0</Name>
+    <Description>
+		Develops Android mobile application (API level 19 or higher) and Android Wear 2.0 application (API level 25 or higher). 
+		This template contains shared projects, and enable to share source code, assets, etc. with mobile and wearable projects.
+	</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>App</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <CreateInPlace>true</CreateInPlace>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectCollection>
+		<ProjectTemplateLink ProjectName="$safeprojectname$">AndroidWithWear\MyTemplate.vstemplate</ProjectTemplateLink>
+		<ProjectTemplateLink ProjectName="$safeprojectname$.Mobile" CopyParameters="true">AndroidWithWear.Mobile\MyTemplate.vstemplate</ProjectTemplateLink>
+		<ProjectTemplateLink ProjectName="$safeprojectname$.Wear" CopyParameters="true">AndroidWithWear.Wear\MyTemplate.vstemplate</ProjectTemplateLink>
+	</ProjectCollection>
+  </TemplateContent>
+</VSTemplate>
