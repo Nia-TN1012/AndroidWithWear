@@ -19,12 +19,15 @@ namespace AndroidWithWear {
 	[Activity( Label = "@string/app_name", MainLauncher = true, Icon = "@drawable/icon" )]
 	public class MainActivity : WearableActivity {
 
+		/// <summary>
+		///		Counter of shared project.
+		/// </summary>
 		private TrialCounter counter;
 
-		private ImageButton imageButton;
-
-		private TextView textView;
-
+		/// <summary>
+		/// 
+		/// </summary>
+		/// <param name="bundle"></param>
 		protected override void OnCreate( Bundle bundle ) {
 			base.OnCreate( bundle );
 			counter = new TrialCounter();
@@ -34,8 +37,9 @@ namespace AndroidWithWear {
 
 			SetAmbientEnabled();
 
-			textView = FindViewById<TextView>( Resource.Id.myTextView );
-			imageButton = FindViewById<ImageButton>( Resource.Id.myImageButton );
+			// Sets button's click event.
+			var textView = FindViewById<TextView>( Resource.Id.myTextView );
+			var imageButton = FindViewById<ImageButton>( Resource.Id.myImageButton );
 			imageButton.Click += ( sender, e ) => {
 				counter.CountUp();
 				textView.Text = $"{counter.Count} times tapped.";
