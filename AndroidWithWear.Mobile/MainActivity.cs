@@ -4,7 +4,7 @@ using Android.OS;
 
 namespace AndroidWithWear {
 
-	[Activity( Label = "Mobile", MainLauncher = true )]
+	[Activity( Label = "@string/app_name", MainLauncher = true )]
 	public class MainActivity : Activity {
 
 		/// <summary>
