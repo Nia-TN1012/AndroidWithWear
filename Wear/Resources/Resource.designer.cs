@@ -559,6 +559,9 @@ namespace AndroidWithWear
 			// aapt resource value: 0x7f0a000e
 			public const int action_drawer_peek_view_height = 2131361806;
 			
+			// aapt resource value: 0x7f0a0039
+			public const int button_size = 2131361849;
+			
 			// aapt resource value: 0x7f0a000f
 			public const int card_content_padding_rect_top = 2131361807;
 			
@@ -675,6 +678,9 @@ namespace AndroidWithWear
 			
 			// aapt resource value: 0x7f0a002c
 			public const int screen_percentage_15 = 2131361836;
+			
+			// aapt resource value: 0x7f0a0038
+			public const int text_size = 2131361848;
 			
 			// aapt resource value: 0x7f0a002d
 			public const int wearable_drawer_view_elevation = 2131361837;
@@ -922,11 +928,14 @@ namespace AndroidWithWear
 			// aapt resource value: 0x7f0c0019
 			public const int multi_page = 2131492889;
 			
-			// aapt resource value: 0x7f0c0027
-			public const int myButton = 2131492903;
+			// aapt resource value: 0x7f0c0028
+			public const int myImageButton = 2131492904;
 			
-			// aapt resource value: 0x7f0c0039
-			public const int nested_icon = 2131492921;
+			// aapt resource value: 0x7f0c0027
+			public const int myTextView = 2131492903;
+			
+			// aapt resource value: 0x7f0c003a
+			public const int nested_icon = 2131492922;
 			
 			// aapt resource value: 0x7f0c000c
 			public const int none = 2131492876;
@@ -952,11 +961,11 @@ namespace AndroidWithWear
 			// aapt resource value: 0x7f0c0018
 			public const int start = 2131492888;
 			
-			// aapt resource value: 0x7f0c0036
-			public const int text = 2131492918;
+			// aapt resource value: 0x7f0c0037
+			public const int text = 2131492919;
 			
-			// aapt resource value: 0x7f0c0035
-			public const int title = 2131492917;
+			// aapt resource value: 0x7f0c0036
+			public const int title = 2131492918;
 			
 			// aapt resource value: 0x7f0c0007
 			public const int top = 2131492871;
@@ -976,50 +985,50 @@ namespace AndroidWithWear
 			// aapt resource value: 0x7f0c0021
 			public const int wearable_support_action_drawer_title = 2131492897;
 			
-			// aapt resource value: 0x7f0c002b
-			public const int wearable_support_confirmation_overlay_image = 2131492907;
-			
 			// aapt resource value: 0x7f0c002c
-			public const int wearable_support_confirmation_overlay_message = 2131492908;
-			
-			// aapt resource value: 0x7f0c0037
-			public const int wearable_support_drawer_view_peek_container = 2131492919;
-			
-			// aapt resource value: 0x7f0c0038
-			public const int wearable_support_drawer_view_peek_icon = 2131492920;
+			public const int wearable_support_confirmation_overlay_image = 2131492908;
 			
 			// aapt resource value: 0x7f0c002d
-			public const int wearable_support_nav_drawer_icon_0 = 2131492909;
+			public const int wearable_support_confirmation_overlay_message = 2131492909;
 			
-			// aapt resource value: 0x7f0c002f
-			public const int wearable_support_nav_drawer_icon_1 = 2131492911;
+			// aapt resource value: 0x7f0c0038
+			public const int wearable_support_drawer_view_peek_container = 2131492920;
 			
-			// aapt resource value: 0x7f0c0030
-			public const int wearable_support_nav_drawer_icon_2 = 2131492912;
-			
-			// aapt resource value: 0x7f0c0031
-			public const int wearable_support_nav_drawer_icon_3 = 2131492913;
-			
-			// aapt resource value: 0x7f0c0032
-			public const int wearable_support_nav_drawer_icon_4 = 2131492914;
-			
-			// aapt resource value: 0x7f0c0033
-			public const int wearable_support_nav_drawer_icon_5 = 2131492915;
-			
-			// aapt resource value: 0x7f0c0034
-			public const int wearable_support_nav_drawer_icon_6 = 2131492916;
+			// aapt resource value: 0x7f0c0039
+			public const int wearable_support_drawer_view_peek_icon = 2131492921;
 			
 			// aapt resource value: 0x7f0c002e
-			public const int wearable_support_nav_drawer_text = 2131492910;
+			public const int wearable_support_nav_drawer_icon_0 = 2131492910;
 			
-			// aapt resource value: 0x7f0c0028
-			public const int wearable_support_navigation_drawer_item_icon = 2131492904;
+			// aapt resource value: 0x7f0c0030
+			public const int wearable_support_nav_drawer_icon_1 = 2131492912;
+			
+			// aapt resource value: 0x7f0c0031
+			public const int wearable_support_nav_drawer_icon_2 = 2131492913;
+			
+			// aapt resource value: 0x7f0c0032
+			public const int wearable_support_nav_drawer_icon_3 = 2131492914;
+			
+			// aapt resource value: 0x7f0c0033
+			public const int wearable_support_nav_drawer_icon_4 = 2131492915;
+			
+			// aapt resource value: 0x7f0c0034
+			public const int wearable_support_nav_drawer_icon_5 = 2131492916;
+			
+			// aapt resource value: 0x7f0c0035
+			public const int wearable_support_nav_drawer_icon_6 = 2131492917;
+			
+			// aapt resource value: 0x7f0c002f
+			public const int wearable_support_nav_drawer_text = 2131492911;
 			
 			// aapt resource value: 0x7f0c0029
-			public const int wearable_support_navigation_drawer_item_text = 2131492905;
+			public const int wearable_support_navigation_drawer_item_icon = 2131492905;
 			
 			// aapt resource value: 0x7f0c002a
-			public const int wearable_support_navigation_drawer_page_indicator = 2131492906;
+			public const int wearable_support_navigation_drawer_item_text = 2131492906;
+			
+			// aapt resource value: 0x7f0c002b
+			public const int wearable_support_navigation_drawer_page_indicator = 2131492907;
 			
 			// aapt resource value: 0x7f0c0000
 			public const int wearable_support_navigation_drawer_view_pager = 2131492864;

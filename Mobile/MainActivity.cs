@@ -20,7 +20,7 @@ namespace AndroidWithWear {
 			var button = FindViewById<Button>( Resource.Id.myButton );
 			button.Click += ( sender, e ) => {
 				counter.CountUp();
-				button.Text = $"{counter.Count} times taped.";
+				button.Text = $"{counter.Count} times tapped.";
 			};
 		}
 	}
