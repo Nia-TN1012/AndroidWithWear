@@ -13,9 +13,9 @@ namespace AndroidWithWear {
 		public TrialCounter counter;
 
 		/// <summary>
-		/// 
+		///		Invoked when the activity is first created.
 		/// </summary>
-		/// <param name="bundle"></param>
+		/// <param name="bundle">Saved instance state</param>
 		protected override void OnCreate( Bundle bundle ) {
 			base.OnCreate( bundle );
 
