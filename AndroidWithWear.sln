@@ -5,9 +5,9 @@ VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "AndroidWithWear", "AndroidWithWear\AndroidWithWear.shproj", "{84A53280-E47A-4DBF-8F03-D12D86C37DAF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mobile", "Mobile\Mobile.csproj", "{AE431EEA-F862-47E7-A448-D8FEBEFE104B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndroidWithWear.Mobile", "AndroidWithWear.Mobile\AndroidWithWear.Mobile.csproj", "{AE431EEA-F862-47E7-A448-D8FEBEFE104B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wear", "Wear\Wear.csproj", "{4EB25631-6D39-4C15-925D-AC7ABFE11C04}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndroidWithWear.Wear", "AndroidWithWear.Wear\AndroidWithWear.Wear.csproj", "{4EB25631-6D39-4C15-925D-AC7ABFE11C04}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
