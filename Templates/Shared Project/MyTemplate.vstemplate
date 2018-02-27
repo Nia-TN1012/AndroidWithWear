@@ -2,7 +2,7 @@
   <TemplateData>
     <Name>Android With Wear App 2.0 (Shared Project)</Name>
     <Description>A multi-project template for building apps for Android (API level 19 or higher) and Android Wear 2.0 (API level 25 or higher) with Xamarin.Android.
-This template contains shared projects, and source code, assets, etc. can be shared between projects.</Description>
+This template contains shared projects, and source code can be shared between projects.</Description>
     <ProjectType>CSharp</ProjectType>
     <ProjectSubType>
     </ProjectSubType>
