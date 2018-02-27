@@ -17,7 +17,7 @@
   <TemplateContent>
     <Project TargetFileName="$safeprojectname$.shproj" File="AndroidWithWear.shproj" ReplaceParameters="true">
       <ProjectItem TargetFileName="$safeprojectname$.projitems" ReplaceParameters="true">AndroidWithWear.projitems</ProjectItem>
-      <ProjectItem ReplaceParameters="true" TargetFileName="GettingStarted.html">GettingStarted.html</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="GettingStarted.html" OpenInWebBrowser="true">GettingStarted.html</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="TrialCounter.cs">TrialCounter.cs</ProjectItem>
     </Project>
   </TemplateContent>
