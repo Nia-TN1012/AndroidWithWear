@@ -103,6 +103,15 @@
 			line-height: 28px;
             font-size: 16px;
 		}
+
+		pre {
+			border: solid 1px #808080;
+			background-color: #F0F0F0;
+			border-radius: 3px;
+			font-family:"Consolas", monospace;
+			margin: 5px;
+			padding: 10px;
+		}
 		
 		footer {
             color: #7f8c8d;
@@ -129,7 +138,7 @@
 			<p class="list-description">
 				Thank you for using <strong>Chronoir_net.Chronica.AndroidWithWear</strong>!<br/>
 				This multi-project for building apps for Android (API level 19 or higher) and Android Wear 2.0 (API level 25 or higher) with Xamarin.Android.<br/>
-				This contains shared projects, and source code, assets, etc. can be shared between projects.
+				This contains shared projects, and source code can be shared between projects.
 			</p>
 			<h3>* Project template info.</h3>
 			<table>
@@ -151,11 +160,11 @@
 				</tr>
 				<tr>
 					<th>Target Android Version (Mobile)</th>
-					<td>4.4 (KitKat) or later</td>
+					<td>4.4 (KitKat) or higher</td>
 				</tr>
 				<tr>
 					<th>Target Android Version (Wear)</th>
-					<td>Wear 2.0 (7.1 Nougat) or later</td>
+					<td>Wear 2.0 (7.1 Nougat) or higher</td>
 				</tr>
 			</table>
 			<br/>
@@ -408,23 +417,46 @@
 				</tr>
 				<tr>
 					<th>Intel x86 Atom System Image</th>
-					<td>API Level 19 or later</td>
+					<td>API Level 19 or higher</td>
 				</tr>
 				<tr>
 					<th>Android Wear Intel x86 Atom System Image</th>
-					<td>API Level 25 or later</td>
+					<td>API Level 25 or higher</td>
 				</tr>
 			</table>
 			<p class="list-description">
 				<strong>Note:</strong> To use the system image of Intel x86, install <strong>"<a href="https://software.intel.com/en-us/android/articles/intel-hardware-accelerated-execution-manager"target="_blank">Intel x86 Emulator Accelerator (HAXM install)</a>"</strong>.
 			</p>
 		</div>
+	</div>
+	<div class="container">
+        <div class="content">
+			<h2>5. Tips</h2>
+			<h3>Writing Mobile or Wear specific code in the shared project.</h3>
+			<p class="list-description">
+				To write mobile code or wear code in a shared project, use #if directive and conditional compilation symbols.<br/>
+				<strong>ANDROID_APP</strong> symbol for Mobile and <strong>ANDROID_WEAR_APP</strong> symbol for Wear are defined.
+			</p>
+			<pre>// Shared code.
+&nbsp;
+#if ANDROID_APP
+&nbsp;
+	// Mobile specific code.
+	&nbsp;
+#elif ANDROID_WEAR_APP
+&nbsp;
+	// Wear specific code.
+	&nbsp;
+#endif
+&nbsp;
+// Shared code.</pre>
+		</div>
     </div>
 	
 	<footer style="padding:20px 0 20px;">
 		<p>Chronoir.net
 			<a style="padding:0px 0px 0px 20px;" href="https://chronoir.net/" target="_blank">Homepage</a>
-			<a style="padding:0px 0px 0px 20px;" href="https://github.com/Nia-TN1012/$safeprojectname$" target="_blank">GitHub</a>
+			<a style="padding:0px 0px 0px 20px;" href="https://github.com/Nia-TN1012/AndroidWithWear/" target="_blank">GitHub</a>
 		</p>
     </footer>
 </body>

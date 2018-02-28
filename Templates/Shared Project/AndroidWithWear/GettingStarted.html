@@ -103,6 +103,15 @@
 			line-height: 28px;
             font-size: 16px;
 		}
+
+		pre {
+			border: solid 1px #808080;
+			background-color: #F0F0F0;
+			border-radius: 3px;
+			font-family:"Consolas", monospace;
+			margin: 5px;
+			padding: 10px;
+		}
 		
 		footer {
             color: #7f8c8d;
@@ -419,12 +428,35 @@
 				<strong>Note:</strong> To use the system image of Intel x86, install <strong>"<a href="https://software.intel.com/en-us/android/articles/intel-hardware-accelerated-execution-manager"target="_blank">Intel x86 Emulator Accelerator (HAXM install)</a>"</strong>.
 			</p>
 		</div>
+	</div>
+	<div class="container">
+        <div class="content">
+			<h2>5. Tips</h2>
+			<h3>Writing Mobile or Wear specific code in the shared project.</h3>
+			<p class="list-description">
+				To write mobile code or wear code in a shared project, use #if directive and conditional compilation symbols.<br/>
+				<strong>ANDROID_APP</strong> symbol for Mobile and <strong>ANDROID_WEAR_APP</strong> symbol for Wear are defined.
+			</p>
+			<pre>// Shared code.
+&nbsp;
+#if ANDROID_APP
+&nbsp;
+	// Mobile specific code.
+	&nbsp;
+#elif ANDROID_WEAR_APP
+&nbsp;
+	// Wear specific code.
+	&nbsp;
+#endif
+&nbsp;
+// Shared code.</pre>
+		</div>
     </div>
 	
 	<footer style="padding:20px 0 20px;">
 		<p>Chronoir.net
 			<a style="padding:0px 0px 0px 20px;" href="https://chronoir.net/" target="_blank">Homepage</a>
-			<a style="padding:0px 0px 0px 20px;" href="https://github.com/Nia-TN1012/$safeprojectname$" target="_blank">GitHub</a>
+			<a style="padding:0px 0px 0px 20px;" href="https://github.com/Nia-TN1012/AndroidWithWear/" target="_blank">GitHub</a>
 		</p>
     </footer>
 </body>
