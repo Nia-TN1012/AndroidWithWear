@@ -41,7 +41,7 @@ Author: Nia Tomonaka ([@nia_tn1012](https://twitter.com/nia_tn1012))
 |Programing language|C# 6.0|
 |Target Android Version|Wear 2.0 (7.1 Nougat) or higher|
 
-# System require 
+# System requirements 
 
 >Recommended the latest version.
 
