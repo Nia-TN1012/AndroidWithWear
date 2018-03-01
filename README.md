@@ -90,4 +90,4 @@ The author and Chronoir.net accept no any responsibility for any obstacles or da
 
 # Release Note
 
-* 2018/02/28: First release.
+* 2018/03/01: First release.
