@@ -29,8 +29,8 @@ Author: Nia Tomonaka ([@nia_tn1012](https://twitter.com/nia_tn1012))
 |Display name|Android With Wear 2.0 App (Shared Project)|
 |Project template version|1.0.0|
 |Programing language|C# 6.0|
-|Target Android Version (Mobile)|4.4 (KitKat) or higher|
-|Target Android Version (Wear)|Wear 2.0 (7.1 Nougat) or higher|
+|Target Android Version (Mobile)|4.4 (KitKat / API level 19) or higher|
+|Target Android Version (Wear)|Wear 2.0 (Android 7.1 Nougat / API level 25) or higher|
 
 ## AndroidWearApp2
 
@@ -39,26 +39,21 @@ Author: Nia Tomonaka ([@nia_tn1012](https://twitter.com/nia_tn1012))
 |Display name|Wear 2.0 App (Android)|
 |Project template version|1.0.0|
 |Programing language|C# 6.0|
-|Target Android Version|Wear 2.0 (7.1 Nougat) or higher|
+|Target Android Version|Wear 2.0 (Android 7.1 Nougat / API level 25) or higher|
 
-# System requirements 
+>Project templates are compatible only with **Windows version of Visual Studio**, but projects created from them can also be loaded by **Visual Studio for Mac**.
+
+# System requirements for projects
 
 >Recommended the latest version.
 
-## Project template
-
-* Windows
-* Visual Studio Community 2017 or higher
-
-## Project
-
-### For Windows
+## For Windows
 
 * Visual Studio Community 2017 or higher
 * Xamarin.Android
 * Xamarin for Visual Studio
 
-### For Mac
+## For Mac
 
 * Visual Studio for Mac Community 2017 or higher
 * Xamarin.Android
