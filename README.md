@@ -10,7 +10,7 @@ Author: Nia Tomonaka ([@nia_tn1012](https://twitter.com/nia_tn1012))
 
 # Abstract
 
-**AndroidWithWear** supports Android (API level 19 or higher) and Android Wear 2.0 (API level 25 or higher) Apps.
+**Choronoir_net.Chronica.AndroidWithWear** supports Android (API level 19 or higher) and Android Wear 2.0 (API level 25 or higher) Apps.
 
 ![AppPreview](https://raw.githubusercontent.com/Nia-TN1012/AndroidWithWear/master/DisplayImages/app-preview.png)
 
@@ -18,7 +18,7 @@ Author: Nia Tomonaka ([@nia_tn1012](https://twitter.com/nia_tn1012))
 
 ![SolutionStructure](https://raw.githubusercontent.com/Nia-TN1012/AndroidWithWear/master/DisplayImages/solution-structure.png)
 
-**AndroidWearApp2** supports Android Wear 2.0 (API level 25 or higher) Apps. 
+**Choronoir_net.Chronica.AndroidWearApp2** supports Android Wear 2.0 (API level 25 or higher) Apps. 
 
 # Project template info.
 
