@@ -41,6 +41,28 @@ Author: Nia Tomonaka ([@nia_tn1012](https://twitter.com/nia_tn1012))
 |Programing language|C# 6.0|
 |Target Android Version|Wear 2.0 (7.1 Nougat) or higher|
 
+# System require 
+
+>Recommended the latest version.
+
+## Project template
+
+* Windows
+* Visual Studio Community 2017 or higher
+
+## Project
+
+### For Windows
+
+* Visual Studio Community 2017 or higher
+* Xamarin.Android
+* Xamarin for Visual Studio
+
+### For Mac
+
+* Visual Studio for Mac Community 2017 or higher
+* Xamarin.Android
+
 # How to use
 
 1\. Download template file.
