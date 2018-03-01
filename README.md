@@ -67,8 +67,8 @@ Author: Nia Tomonaka ([@nia_tn1012](https://twitter.com/nia_tn1012))
 
 1\. Download template file.
 
-* [Chronoir_net.Chronica.AndroidWithWear.zp]()
-* [Chronoir_net.Chronica.AndroidWearApp2.zip]()
+* [Chronoir_net.Chronica.AndroidWithWear.zp](https://github.com/Nia-TN1012/AndroidWithWear/blob/master/Templates/Shared%20Project/Chronoir_net.Chronica.AndroidWithWear.zip?raw=true)
+* [Chronoir_net.Chronica.AndroidWearApp2.zip](https://github.com/Nia-TN1012/AndroidWithWear/blob/master/Templates/Wear%202.0%20App/Chronoir_net.Chronica.AndroidWearApp2.zip?raw=true)
 
 2\. Place it in the Visual Stduio template directory. (ex. `C:\User\[USER]\Document\Visual Studio 2017\Templates\ProjectTemplates\Visual C#`)
 
