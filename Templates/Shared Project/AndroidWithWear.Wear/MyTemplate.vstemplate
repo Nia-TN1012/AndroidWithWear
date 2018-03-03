@@ -15,7 +15,7 @@
     <Icon>__TemplateIcon.ico</Icon>
   </TemplateData>
   <TemplateContent>
-    <Project TargetFileName="$ext_safeprojectname$.Wear.csproj" File="AndroidWithWear.Wear.csproj" ReplaceParameters="true">
+    <Project TargetFileName="$safeprojectname$.csproj" File="AndroidWithWear.Wear.csproj" ReplaceParameters="true">
       <Folder Name="Assets" TargetFolderName="Assets">
         <ProjectItem ReplaceParameters="true" TargetFileName="AboutAssets.txt">AboutAssets.txt</ProjectItem>
       </Folder>
