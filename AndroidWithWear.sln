@@ -11,6 +11,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndroidWithWear.Wear", "And
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndroidWearApp2", "AndroidWearApp2\AndroidWearApp2.csproj", "{57E224DC-1726-4B10-B100-29150DDBEB0A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndroidWithWearS", "AndroidWithWearS\AndroidWithWearS.csproj", "{17E85C52-95D5-4B39-BD00-F6F63E8C2396}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndroidWithWearS.Mobile", "AndroidWithWearS.Mobile\AndroidWithWearS.Mobile.csproj", "{49C15609-E0FC-41AD-B8BC-AC685F407613}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndroidWithWearS.Wear", "AndroidWithWearS.Wear\AndroidWithWearS.Wear.csproj", "{7B77EEBE-5DF7-42A0-BB12-47AFFE5EDE3F}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		AndroidWithWear\AndroidWithWear.projitems*{4eb25631-6d39-4c15-925d-ac7abfe11c04}*SharedItemsImports = 4
@@ -40,6 +46,22 @@ Global
 		{57E224DC-1726-4B10-B100-29150DDBEB0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57E224DC-1726-4B10-B100-29150DDBEB0A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{57E224DC-1726-4B10-B100-29150DDBEB0A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{17E85C52-95D5-4B39-BD00-F6F63E8C2396}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17E85C52-95D5-4B39-BD00-F6F63E8C2396}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17E85C52-95D5-4B39-BD00-F6F63E8C2396}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17E85C52-95D5-4B39-BD00-F6F63E8C2396}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49C15609-E0FC-41AD-B8BC-AC685F407613}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49C15609-E0FC-41AD-B8BC-AC685F407613}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49C15609-E0FC-41AD-B8BC-AC685F407613}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{49C15609-E0FC-41AD-B8BC-AC685F407613}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49C15609-E0FC-41AD-B8BC-AC685F407613}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49C15609-E0FC-41AD-B8BC-AC685F407613}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{7B77EEBE-5DF7-42A0-BB12-47AFFE5EDE3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B77EEBE-5DF7-42A0-BB12-47AFFE5EDE3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B77EEBE-5DF7-42A0-BB12-47AFFE5EDE3F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7B77EEBE-5DF7-42A0-BB12-47AFFE5EDE3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B77EEBE-5DF7-42A0-BB12-47AFFE5EDE3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B77EEBE-5DF7-42A0-BB12-47AFFE5EDE3F}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
