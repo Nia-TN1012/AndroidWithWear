@@ -15,7 +15,7 @@ using Android.Graphics;
 using Android.Support.V4.Content;
 using Android.Support.V4.Widget;
 
-namespace AndroidWithWear {
+namespace AndroidWithWearS.Wear {
 	[Activity( Label = "@string/app_name", MainLauncher = true, Icon = "@drawable/icon" )]
 	public class MainActivity : WearableActivity {
 

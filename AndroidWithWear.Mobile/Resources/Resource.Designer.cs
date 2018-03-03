@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("AndroidWithWear.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("AndroidWithWear.Mobile.Resource", IsApplication=true)]
 
-namespace AndroidWithWear
+namespace AndroidWithWear.Mobile
 {
 	
 	

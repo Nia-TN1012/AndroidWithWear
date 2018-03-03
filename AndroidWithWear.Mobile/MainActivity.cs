@@ -2,7 +2,7 @@
 using Android.Widget;
 using Android.OS;
 
-namespace AndroidWithWear {
+namespace AndroidWithWear.Mobile {
 
 	[Activity( Label = "@string/app_name", MainLauncher = true )]
 	public class MainActivity : Activity {
