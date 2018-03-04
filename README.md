@@ -18,6 +18,8 @@ Author: Nia Tomonaka ([@nia_tn1012](https://twitter.com/nia_tn1012))
 
 ![SolutionStructure](https://raw.githubusercontent.com/Nia-TN1012/AndroidWithWear/master/DisplayImages/solution-structure.png)
 
+**Choronoir_net.Chronica.AndroidWithWearS** supports Android (API level 19 or higher) and Android Wear 2.0 (API level 25 or higher) Apps. This template contains **.NET Standard library project**, and source code can be shared between Mobile and Wear projects.
+
 **Choronoir_net.Chronica.AndroidWearApp2** supports Android Wear 2.0 (API level 25 or higher) Apps. 
 
 # Project template info.
@@ -28,6 +30,16 @@ Author: Nia Tomonaka ([@nia_tn1012](https://twitter.com/nia_tn1012))
 |---|---|
 |Display name|Android With Wear 2.0 App (Shared Project)|
 |Project template version|1.0.1|
+|Programing language|C# 6.0|
+|Target Android Version (Mobile)|4.4 (KitKat / API level 19) or higher|
+|Target Android Version (Wear)|Wear 2.0 (Android 7.1 Nougat / API level 25) or higher|
+
+## AndroidWithWearS
+
+|Project template name|Chronoir_net.Chronica.AndroidWithWearS|
+|---|---|
+|Display name|Android With Wear 2.0 App (.NET Standard)|
+|Project template version|1.0.0|
 |Programing language|C# 6.0|
 |Target Android Version (Mobile)|4.4 (KitKat / API level 19) or higher|
 |Target Android Version (Wear)|Wear 2.0 (Android 7.1 Nougat / API level 25) or higher|
@@ -89,3 +101,5 @@ The author and Chronoir.net accept no any responsibility for any obstacles or da
 * 2018/03/03: 
   * [AndroidWithWear ver.1.0.1] Fixed slightly default namespace and package name.
   * [AndroidWearApp2 ver.1.0.1] Fixed bug that project name was not set to @app_name in `Resources/values/strings.xml` and `Resources/values-round/strings.xml` when creating a project.
+* 2018/03/05:
+  * [AndroidWithWearS ver.1.0.0] First release.
