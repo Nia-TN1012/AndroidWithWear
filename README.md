@@ -27,7 +27,7 @@ Author: Nia Tomonaka ([@nia_tn1012](https://twitter.com/nia_tn1012))
 |Project template name|Chronoir_net.Chronica.AndroidWithWear|
 |---|---|
 |Display name|Android With Wear 2.0 App (Shared Project)|
-|Project template version|1.0.0|
+|Project template version|1.0.1|
 |Programing language|C# 6.0|
 |Target Android Version (Mobile)|4.4 (KitKat / API level 19) or higher|
 |Target Android Version (Wear)|Wear 2.0 (Android 7.1 Nougat / API level 25) or higher|
@@ -37,7 +37,7 @@ Author: Nia Tomonaka ([@nia_tn1012](https://twitter.com/nia_tn1012))
 |Project template name|Chronoir_net.Chronica.AndroidWearApp2|
 |---|---|
 |Display name|Wear 2.0 App (Android)|
-|Project template version|1.0.0|
+|Project template version|1.0.1|
 |Programing language|C# 6.0|
 |Target Android Version|Wear 2.0 (Android 7.1 Nougat / API level 25) or higher|
 
@@ -86,3 +86,6 @@ The author and Chronoir.net accept no any responsibility for any obstacles or da
 # Release Note
 
 * 2018/03/01: First release.
+* 2018/03/03: 
+  * [AndroidWithWear ver.1.0.1] Fixed slightly default namespace and package name.
+  * [AndroidWearApp2 ver.1.0.1] Fixed bug that project name was not set to @app_name in `Resources/values/strings.xml` and `Resources/values-round/strings.xml` when creating a project.
