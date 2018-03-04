@@ -1,7 +1,7 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
   <TemplateData>
     <Name>AndroidWithWearS.Wear</Name>
-    <Description>&lt;説明はありません。&gt;</Description>
+    <Description>Wearable project for Android With Wear</Description>
     <ProjectType>CSharp</ProjectType>
     <ProjectSubType>
     </ProjectSubType>
@@ -11,6 +11,7 @@
     <ProvideDefaultName>true</ProvideDefaultName>
     <LocationField>Enabled</LocationField>
     <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+	<CreateInPlace>true</CreateInPlace>
     <Icon>__TemplateIcon.ico</Icon>
   </TemplateData>
   <TemplateContent>
