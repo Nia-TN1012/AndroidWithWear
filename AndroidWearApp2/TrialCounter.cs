@@ -1,15 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿namespace AndroidWearApp2 {
 
-// Note: Code placed on this shared project, can be used for both mobile and wearable projects.
-
-namespace AndroidWearApp2 {
-
-	/// <summary>
-	///		Simple counter
-	/// </summary>
-	public class TrialCounter {
+    /// <summary>
+    ///		Simple counter
+    /// </summary>
+    public class TrialCounter {
 
 		/// <summary>
 		///		Gets current count.

@@ -1,22 +1,11 @@
-﻿using System;
-
+﻿
 using Android.App;
-using Android.Content;
-using Android.Runtime;
-using Android.Views;
 using Android.Widget;
 using Android.OS;
-using Android.Support.V4.App;
-using Android.Support.V4.View;
-using Android.Support.Wearable;
-using Android.Views.Animations;
 using Android.Support.Wearable.Activity;
-using Android.Graphics;
-using Android.Support.V4.Content;
-using Android.Support.V4.Widget;
 
 namespace AndroidWearApp2 {
-	[Activity( Label = "@string/app_name", MainLauncher = true, Icon = "@drawable/icon" )]
+    [Activity( Label = "@string/app_name", MainLauncher = true, Icon = "@drawable/icon" )]
 	public class MainActivity : WearableActivity {
 
 		/// <summary>
@@ -27,9 +16,9 @@ namespace AndroidWearApp2 {
 		/// <summary>
 		///		Invoked when the activity is first created.
 		/// </summary>
-		/// <param name="bundle">Saved instance state</param>
-		protected override void OnCreate( Bundle bundle ) {
-			base.OnCreate( bundle );
+		/// <param name="savedInstanceState">Saved instance state</param>
+		protected override void OnCreate( Bundle savedInstanceState ) {
+			base.OnCreate( savedInstanceState );
 			counter = new TrialCounter();
 
 			// Set our view from the "main" layout resource
@@ -43,7 +32,8 @@ namespace AndroidWearApp2 {
 			imageButton.Click += ( sender, e ) => {
 				counter.CountUp();
 				textView.Text = $"{counter.Count} times tapped.";
-			};
-		}
+            };
+
+        }
 	}
 }
